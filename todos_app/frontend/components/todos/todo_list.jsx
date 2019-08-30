@@ -10,7 +10,8 @@ const TodoList = (props) => {
           return <TodoListItem 
             todo={todo} 
             key={todo.id} 
-            removeTodo={props.removeTodo} 
+            removeTodo={props.removeTodo}
+            receiveTodo={props.receiveTodo} 
           />
         })}
       </ul>
